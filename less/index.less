@@ -1,0 +1,850 @@
+// 这里是首页的样式
+// main start
+.main {
+    width: 980px;
+    height: 456px;
+    margin-left: 222px;
+    margin-top: 10px;
+
+    .focus {
+        position: relative;
+        width: 721px;
+        height: 455px;
+        background: purple;
+
+        .arrow-l,
+        .arrow-r {
+            position: absolute;
+            top: 50%;
+            width: 24px;
+            height: 40px;
+            margin-top: -20px;
+            line-height: 40px;
+            text-align: center;
+            color: #ffffff;
+            background: rgba(0, 0, 0, 0.2);
+
+
+        }
+
+        .arrow-r {
+            right: 0;
+        }
+
+        .circle {
+            position: absolute;
+            bottom: 10px;
+            left: 50px;
+
+
+            li {
+                float: left;
+                width: 8px;
+                height: 8px;
+                margin: 0 3px;
+                border: 2px solid rgba(255, 255, 255, .5);
+                border-radius: 50%;
+                // 鼠标经过显示小手
+                cursor: pointer;
+            }
+
+            .current {
+                background: #fff;
+                box-shadow: 1px 1px 1px rgba(255, 255, 255, .5);
+            }
+
+        }
+    }
+
+    .newsflash {
+        width: 252px;
+        height: 455px;
+
+        .news {
+            border: 1px solid #cccccc;
+
+            .news-hd {
+                height: 32px;
+                padding: 0 15px;
+                line-height: 32px;
+                font-size: 14px;
+                // dotted点线 dashed 虚线
+                border-bottom: 1px dotted #cccccc;
+            }
+
+            .news-bd {
+                padding: 10px 0 0 17px;
+
+                li {
+                    height: 23px;
+
+                }
+            }
+        }
+
+        .lifeservice {
+            height: 210px;
+            border: 1px solid #cccccc;
+            border-top: none;
+            // 超出部分隐藏
+            overflow: hidden;
+
+            ul {
+                width: 252px;
+
+                li {
+                    float: left;
+                    width: 62px;
+                    height: 70px;
+                    text-align: center;
+                    border-right: 1px solid #cccccc;
+                    border-bottom: 1px solid #cccccc;
+
+                    a {
+                        display: block;
+                        padding-top: 15px;
+                    }
+
+                    i {
+                        color: #c81623;
+                    }
+
+                    p {
+                        position: relative;
+                        font-size: 15px;
+
+                        span {
+                            position: absolute;
+                            top: -40px;
+                            right: 0;
+                            width: 12px;
+                            height: 15px;
+                            line-height: 15px;
+                            font-size: 6px;
+                            color: #fff;
+                            background-color: #589d5a;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bargin {
+            height: 75px;
+            margin-top: 5px;
+        }
+    }
+}
+
+// main end
+
+// 推荐服务 start
+.recommand {
+    margin-top: 10px;
+    height: 162px;
+
+    .recom-hd {
+        width: 200px;
+        height: 162px;
+        text-align: center;
+        font-size: 18px;
+        background: #5c5251;
+
+        img {
+            margin: 30px 0 15px 0;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: normal;
+            color: #ffffff;
+        }
+    }
+
+    .recom-bd {
+        width: 1000px;
+        height: 162px;
+        background-color: #ebebeb;
+
+        li {
+            float: left;
+            // margin-top: 10px;
+            width: 249px;
+            height: 143px;
+            border-right: 1px solid #cccccc;
+        }
+
+        .last {
+            border-right: none;
+        }
+    }
+}
+
+// 推荐服务 end
+
+// 楼层区 start
+.first {
+    position: relative;
+    // height: 281px;
+
+    .head {
+        width: 100%;
+        height: 33px;
+        line-height: 33px;
+        margin-top: 26px;
+
+        li {
+            font-size: 18px;
+            color: #333333;
+
+            p {
+                font-size: 12px;
+                color: #666666;
+
+                i {
+                    // width: 14px;
+                    // height: 14px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .select {
+        height: 246px;
+        border: solid 1px #ededed;
+
+        ul {
+            li {
+                width: 199px;
+                height: 233px;
+                background: #fff;
+                float: left;
+                // margin-left: 20px;
+                overflow: hidden;
+
+                .jpg {
+                    width: 160px;
+                    height: 141px;
+                    margin-top: 14px;
+                    margin-left: 20px;
+                    // vertical-align: middle;
+                    text-align: center;
+                }
+
+
+                .sentence {
+                    width: 120px;
+                    height: 33px;
+                    margin-top: 9px;
+                    margin-left: 36px;
+                    border-left: 1px solid#ededed;
+
+                    h6 {
+                        font-size: 12px;
+                        font-weight: normal;
+                        color: #666666;
+                        // border-left: 1px solid#ededed;
+                    }
+                }
+
+                p {
+                    width: 68px;
+                    height: 15px;
+                    margin-top: 9px;
+                    margin-left: 36px;
+                    font-size: 21px;
+                    font-weight: bold;
+                    color: #df3033;
+
+                }
+
+
+            }
+        }
+    }
+
+
+}
+
+.second {
+    height: 434px;
+    margin-top: 30px;
+
+    p {
+        font-size: 18px;
+        color: #333333;
+    }
+
+    .guzi {
+        position: relative;
+        height: 405px;
+        margin-top: 9px;
+        border: solid 1px #ededed;
+
+        .guzi-one {
+            width: 404px;
+            height: 405px;
+            background-color: #b8bddd;
+            border: 1px solid #ededed;
+
+            .pone {
+                position: absolute;
+                top: 24px;
+                left: 22px;
+                width: 128px;
+                height: 41px;
+
+                h3 {
+
+                    font-size: 18px;
+                    color: #3b468d;
+                }
+
+                p {
+
+                    font-size: 16px;
+                    color: #3b468d;
+
+                }
+            }
+
+            .pc {
+                position: absolute;
+                bottom: 31px;
+                left: 125px;
+
+            }
+        }
+
+        .guzi-two {
+            position: absolute;
+            top: 0;
+            left: 404px;
+            width: 227px;
+            height: 405px;
+
+            h4 {
+                width: 191px;
+                height: 38px;
+                line-height: 36px;
+                text-align: center;
+                font-size: 14px;
+                color: #333333;
+                margin: 0 18px;
+                border-bottom: 2px dashed #ededed;
+
+            }
+
+            .dar {
+                height: 136px;
+                border-bottom: 1px solid #ededed;
+
+                .zi {
+                    display: block;
+                    margin-top: 69px;
+                    margin-left: 8px;
+
+                    h2 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        font-size: 12px;
+                    }
+
+                    i {
+                        margin-top: 8px;
+                        color: #e9424b;
+                    }
+                }
+
+                .pac {
+                    position: absolute;
+                    top: 69px;
+                    left: 94px;
+                    // overflow: hidden;
+                }
+            }
+
+            .faxian {
+                .zit {
+                    display: block;
+                    margin-top: 50px;
+                    margin-left: 8px;
+
+                    h2 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        font-size: 12px;
+                    }
+
+                    i {
+                        margin-top: 8px;
+                        color: #e9424b;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    top: 260px;
+                    left: 103px;
+                }
+            }
+        }
+
+        .guzi-three {
+            position: absolute;
+            top: 0;
+            left: 631px;
+            width: 405px;
+            height: 405px;
+            background: #f7f7f7;
+
+            h4 {
+                width: 369px;
+                height: 38px;
+                line-height: 36px;
+                text-align: center;
+                font-size: 14px;
+                color: #333333;
+                margin: 0 18px;
+                border-bottom: 2px dashed #ededed;
+
+            }
+
+            .su {
+                height: 132px;
+                border-bottom: 1px solid #ededed;
+
+                .zit {
+                    display: block;
+                    margin-top: 73px;
+                    margin-left: 53px;
+
+                    h2 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        font-size: 12px;
+                    }
+
+                    i {
+                        margin-top: 8px;
+                        color: #e9424b;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    top: 73px;
+                    left: 200px;
+                }
+
+            }
+
+            .guoji {
+                float: left;
+                width: 204px;
+                height: 158px;
+                border-right: 1px solid #ededed;
+
+                .zit {
+                    display: block;
+                    margin-top: 50px;
+                    margin-left: 12px;
+
+                    h2 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        font-size: 12px;
+                    }
+
+                    i {
+                        margin-top: 8px;
+                        color: #e9424b;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    top: 274px;
+                    left: 89px;
+                }
+
+            }
+
+            .ben {
+                float: left;
+                width: 200px;
+                height: 158px;
+
+                .ziti {
+                    display: block;
+                    margin-top: 50px;
+                    margin-left: 22px;
+
+                    h2 {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-top: 15px;
+                        font-size: 12px;
+                    }
+
+                    i {
+                        margin-top: 8px;
+                        color: #e9424b;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    top: 269px;
+                    left: 285px;
+                }
+            }
+
+        }
+
+        .guzi-four {
+            position: absolute;
+            // float: right;
+            top: 0;
+            left: 1037px;
+        }
+
+    }
+}
+
+.third {
+    height: 473px;
+    margin-top: 30px;
+
+    .dianqi {
+        width: 1206px;
+        height: 28px;
+        line-height: 28px;
+
+        h {
+            float: left;
+            margin-right: 480px;
+            font-size: 18px;
+            color: #c81623;
+        }
+
+        dl {
+
+            dt {
+                font-size: 12px;
+                float: left;
+                color: #c81623;
+                margin-right: 15px;
+            }
+
+            dd {
+                float: left;
+
+                a {
+                    padding: 0 15px;
+                    border-left: 1px solid#999999;
+                }
+            }
+        }
+    }
+
+    .lizi {
+        position: relative;
+        width: 1200px;
+        height: 360px;
+        // background-color: #f9f9f9;
+        margin-top: 11px;
+        border-top: 2px solid #c81623;
+
+        .list-one {
+            width: 209px;
+            height: 360px;
+            background: #f9f9f9;
+
+            ul {
+                height: 98px;
+
+                li {
+                    width: 73px;
+                    height: 32px;
+                    line-height: 32px;
+                    margin: 0 14px;
+                    text-align: center;
+                    float: left;
+                    font-size: 12px;
+                    color: #666666;
+                    border-bottom: 1px solid #ededed;
+
+                }
+            }
+
+            .san {
+                position: absolute;
+                top: 125px;
+                left: 53px;
+                width: 108px;
+                height: 35px;
+                text-align: center;
+
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: normal;
+                    color: #c81623;
+                }
+
+                p {
+                    font-size: 12px;
+                    color: #c81623;
+                }
+            }
+
+            .tv-one {
+                position: absolute;
+                top: 180px;
+                left: 27px;
+            }
+        }
+
+        .list-two {
+            position: absolute;
+            top: 0;
+            left: 209px;
+            width: 329px;
+            height: 360px;
+            background-color: #aed6d8;
+
+            .hu {
+                position: absolute;
+                top: 38px;
+                left: 31px;
+                width: 252px;
+                height: 40px;
+
+                h3 {
+                    font-size: 18px;
+                    color: #066c7d;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #066c7d;
+                }
+            }
+
+            .chahu {
+                position: absolute;
+                top: 112px;
+                left: 50px;
+            }
+
+            .circle {
+                position: absolute;
+                bottom: 16px;
+                left: 142px;
+
+                li {
+                    float: left;
+                    width: 10px;
+                    height: 10px;
+                    margin: 0 7px;
+                    // border: 2px solid rgba(255, 255, 255, .5);
+                    border-radius: 50%;
+                    cursor: pointer;
+                    background-color: #3e3e3e;
+                }
+
+                .current {
+                    background-color: #fff;
+                    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+                }
+            }
+        }
+
+        .list-three {
+            position: absolute;
+            top: 0;
+            left: 540px;
+            width: 219px;
+            height: 361px;
+            border-right: 1px solid #ededed;
+
+            .mk {
+                height: 180px;
+                border-bottom: 1px solid #ededed;
+
+                .meiman {
+                    position: absolute;
+                    top: 25px;
+                    left: 19px;
+                    width: 120px;
+                    height: 38px;
+
+                    h3 {
+                        font-size: 16px;
+                        color: #000000;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #e60012;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    right: 0;
+                    top: 95px;
+                }
+            }
+
+            .ml {
+                height: 178px;
+                border-bottom: 1px solid #ededed;
+
+                .maile {
+                    position: absolute;
+                    top: 203px;
+                    left: 19px;
+                    width: 128px;
+                    height: 39px;
+
+                    h3 {
+                        font-size: 16px;
+                        color: #000000;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #e60012;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    background: #999999;
+                }
+            }
+        }
+
+        .list-four {
+            position: absolute;
+            top: 0;
+            left: 757px;
+            width: 220px;
+            height: 359px;
+            border: 1px solid #ededed;
+            border-left: none;
+
+            .eight {
+                position: absolute;
+                top: 72px;
+                left: 31px;
+                width: 156px;
+                height: 40px;
+                text-align: center;
+
+                h3 {
+                    font-size: 18px;
+                    color: #000000;
+                }
+
+                p {
+                    font-size: 16px;
+                    color: #999999;
+                }
+            }
+
+            .tu {
+                position: absolute;
+                bottom: 53px;
+                left: 23px;
+            }
+        }
+
+        .list-five {
+            position: absolute;
+            top: 0;
+            left: 978px;
+            width: 224px;
+            height: 360px;
+            border-bottom: 1px solid #ededed;
+
+            .xs {
+                height: 180px;
+                border-bottom: 1px solid #ededed;
+
+                .xiao {
+                    position: absolute;
+                    top: 24px;
+                    left: 17px;
+
+                    h3 {
+                        font-size: 16px;
+                        color: #000000;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #e60012;
+                    }
+                }
+
+                .tu {
+                    position: absolute;
+                    right: 0;
+                    top: 90px;
+                }
+            }
+
+
+        }
+    }
+}
+
+
+
+
+// 楼层区 end
+
+// 电梯 start
+.dianti {
+    position: fixed;
+    top: 224px;
+    left: 50%;
+    width: 66px;
+    margin-left: -676px;
+    background: #fff;
+
+    li {
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        border-bottom: 1px solid #cccccc;
+        cursor: pointer;
+    }
+
+    .current {
+        color: #ffffff;
+        background: #c81623;
+    }
+}
+
+// 电梯 end
