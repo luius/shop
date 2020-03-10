@@ -64,12 +64,18 @@
                 height: 460px;
                 margin: 0 12px 12px 0;
                 border: 1px solid transparent;
+                // transition: all .5s;
 
                 &:hover {
                     border-color: @c_red;
                 }
 
                 a {
+                    transition: all ease-in .5s;
+                  img:hover {
+                      width: 290px;
+                      height: 300px;
+                  }
                     p {
                         width: 265px;
                         height: 35px;
@@ -183,6 +189,12 @@
             height: 36px;
             text-align: center;
             border: 1px solid #cccccc;
+            transition: all .5s;
+
+            &:hover {
+                width: 88px;
+                border: 1px solid #c81623;
+            }
 
         }
     }
